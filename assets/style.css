@@ -1,0 +1,179 @@
+
+        .about-section {
+            padding: 50px 0;
+            background-color: #f5f5f5;
+            position: relative;
+        }
+
+        .about-content {
+            background-color: #f5f5f5;
+            padding: 40px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            position: relative;
+        }
+
+        .about-content h3 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #333;
+            margin: 0;
+        }
+
+        .about-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -20px;
+            background-color: #003366;
+            width: 20px;
+            height: 100%;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            transform: skewX(-20deg);
+        }
+
+        .about-image img {
+            width: 65%;
+            max-height: 300px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-image {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .about-para p {
+            font-size: x-large;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        .about-para h2 {
+            text-decoration: underline;
+            text-decoration-color: rgba(184, 8, 8, 0.677);
+            text-decoration-thickness: 4px;
+            padding-bottom: 5px;
+            text-align: center;
+        }
+
+        .history-section {
+            position: relative;
+            padding: 50px 0;
+        }
+
+        .history-heading {
+            position: relative;
+            display: inline-block;
+            z-index: 1;
+        }
+
+        .history-heading h2 {
+            font-size: 2.5rem;
+            font-weight: 400;
+            color: #333;
+            margin: 0;
+        }
+
+        .history-heading .bold-text {
+            font-weight: 800;
+            color: #000;
+        }
+
+        .history-heading .light-text {
+            font-weight: 400;
+            color: #333;
+        }
+
+        .history-heading::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: -20px;
+            width: 320px;
+            height: 80px;
+            background-color: #dad7d7;
+            transform: skewX(-20deg);
+            z-index: -1;
+        }
+
+        .historybg {
+            background-color: rgb(209, 220, 229);
+        }
+
+        .history-para {
+            font-size: x-large;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        .milestones-section {
+            position: relative;
+            padding: 50px 0;
+        }
+
+        .milestones-heading {
+            position: relative;
+            display: inline-block;
+            z-index: 1;
+        }
+
+        .milestones-heading h2 {
+            font-size: 2.5rem;
+            font-weight: 400;
+            color: #333;
+            margin: 0;
+        }
+
+        .milestones-heading .bold-text {
+            font-weight: 800;
+            color: #000;
+        }
+
+        .milestones-heading .light-text {
+            font-weight: 400;
+            color: #333;
+        }
+
+        .milestones-heading::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: -20px;
+            width: 320px;
+            height: 80px;
+            background-color: #dad7d7;
+            transform: skewX(-20deg);
+            z-index: -1;
+        }
+
+        .timeline-section {
+            padding: 40px 0;
+        }
+
+        .year-box {
+            background-color: #004a99;
+            color: #fff;
+            padding: 12px 30px;
+            font-weight: bold;
+            font-size: 18px;
+            position: relative;
+            border-radius: 5px;
+            margin-right: 20px;
+            width: 10%;
+        }
+
+        .timeline-list ul {
+            list-style-type: disc;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .timeline-list ul li {
+            font-size: larger;
+            color: #333;
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
